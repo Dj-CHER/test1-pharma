@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>West e-CRAC meeting</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                margin:0;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-family: sans-serif;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgb(239, 239, 239);
+                }
+
+            header{
+                width: 600px;
+                display: flex;
+                justify-content: center;
+                }
+
+            header img{
+                width: 100%;
+            }
+            .content-1
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgb(0, 133, 124);
+                width: 600px;
+            }
+            .content-1-images
+            {
+                display: flex;
+                justify-content: center;
+            }
+            .content-1-images img
+            {
+                width: 118px;
+                margin-top:30px;
+            }
+            .content-1 h1
+            {
+                color: rgb(246, 141, 46);
+                margin-top: 30px;
+                background-color: rgb(12, 35, 64);
+                padding: 7px 80px 7px 80px;
+            }
+            
+            .content-2
+            {
+                width: 600px;
+                color: white;
+                background-color: rgb(12, 35, 64);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 10px;
+            }
+            .content-2 p
+            {
+                line-height: 1.6;
+                width: 540px;
+                font-size: 18px;
+                text-align: justify;
+                
+            }
+
+            .content-2 h2
+            {
+                color: rgb(0, 133, 124);
+                text-align: center;
+            }
+
+            .button 
+            {
+                display: block;
+                width: 160px;
+                font-size: 20px;
+                height: 25px;
+                background: rgb(246, 141, 46);
+                padding: 10px;
+                text-align: center;
+                border-radius: 5px;
+                color: rgb(43, 43, 43);
+                font-weight: bold;
+                line-height: 25px;
+                text-decoration: none;
+                margin-top: 10px;
+            }
+
+            .content-3
+            {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(61, 79, 102);
+                width: 600px;
+                color: white;
+                font-size: 15px;
+                line-height: 1.6;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .content-3 div
+            {
+                margin-left: 5px;
+            }
+            .content-4
+            {
+                width: 600px;
+                background-color: white;
+                font-size: 12px;
+            }
+
+            .content-4 p
+            {
+                margin-left: 5px;
+                margin-right: 5px;
+                line-height: 1.6;
+            }
+
+            footer
+            {
+                width: 600px;
+                background-color: white;
+                font-size: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 30px;
+            }
+           footer p
+            {
+                width: 470px;
+                font-weight: 500;
+                line-height: 1.6;
+                color: rgb(132, 119, 103);
+            }
+
+            footer img
+            {
+                width: 100px;
+                align-self: flex-end;
+                margin-right: 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header> <img src="Images/Banner 600100-01.ASSET-21006056.png" alt="Banner"> </header>
+
+        <div class="content-1">
+            <div class="content-1-images">
+                <img src="Images/mosta.ASSET-21006490.jpg" alt="">
+                <img src="Images/oran-Copier.ASSET-21006067.jpg" alt="">
+                <img src="Images/mascara-alge╠ürie.ASSET-21006492.jpg" alt="">
+                <img src="Images/sidi_bel_abbes.ASSET-21006491.jpg" alt="">
+                <img src="Images/la sti.ASSET-21006069.jpg" alt="">
+            </div>
+
+            <h1>West e-CRAC meeting</h1>
+        </div>
+
+        <div class="content-2">
+            <p style="margin-top: 5px;">Cher/Chère {{customText[Docteur |Professeur ]}} {{accLname}}</p>
+
+            <p style="text-align: justify; ">Les laboratoires MSD Algérie ont le plaisir de vous inviter à 
+                participer au « <strong>WEST e-CRAC meeting</strong>  » qui aura lieu le vendredi 
+                <span style="color: rgb(246, 141, 46);">26 mars 2021 de 15h30 à 17h00</span>, événement (hybride) totalement
+                dédié à nos praticiens de l’Ouest Algérien, où chirurgiens et 
+                anesthesistes-réanimateurs de cette région auront l’occasion de 
+                débattre sur le thème de :
+            </p>
+            <h2>«l’amélioration du parcours du patient opéré»</h2>
+            <p style="text-align: center;">Afin d’avoir plus de détails sur le programme, veuillez-vous inscrire
+             en cliquant sur le bouton suivant:
+            </p>
+
+            <a class="button" href="https://event.on24.com/wcc/r/3043784/A9AD30BF9D9902A1DA73DB7665D9D073?partnerref=inv_email">Inscription</a>
+        </div>
+        
+        <div class="content-3">
+            <div>{{customText[Bien cordialement|Cordialement|Bien à vous|A bientôt]}},</div>
+            <div>{{userName}}</div>
+            <div>{{customText[Sales Representative|Senior Customer Representative]}}</div>
+            <div>{{userEmailAddress}}</div>
+            <div>{{user.Phone}}</div>
+            <div>MSD Algérie</div>
+        </div>
+        
+        <div class="content-4">
+            <p style="text-align: justify; color: black;">Pour toute question sur le contenu de ce message, veuillez contacter votre représentant MSD Algérie au
+                numéro de téléphone indiqué ci-dessous. Vous avez reçu cet email car vous avez demandé des informations
+                de la part de MSD à votre représentant MSD. Si vous avez besoin d'information médicale ou si vous avez des
+                questions portant sur un produit MSD, vous pouvez nous contacter par : Tel : +213(0)23 98 20 18 - Email:
+                dpoc.algeria@merck.com Si vous ne souhaitez plus recevoir ces communications par courrier électronique,
+                veuillez cliquer ici pour soumettre votre demande de désinscription. Vous pouvez consulter notre politique de
+                confidentialité.</p>
+        </div>
+        
+
+        <footer>
+            <p>Copyright© 2020 Merck Sharp & Dohme Corp., une filiale de Merck & Co., Inc. Kenilworth, NJ, USA. Tous droits réservés.</p>
+            <p>DZ-XBR-00046</p>
+            <img src="Images/logo_MSD_HI.ASSET-18002507.png" alt="Logo">
+        </footer>
+
+    </body>
+
+</html>
